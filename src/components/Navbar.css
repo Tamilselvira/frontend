@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #81afe3;
+  padding: 10px 20px;
+  color: rgb(13, 12, 12);
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.nav-links li a {
+  color: rgb(15, 14, 14);
+  text-decoration: none;
+}
+
+.logout-btn:hover {
+  text-decoration: underline;
+}

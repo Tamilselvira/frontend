@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f8f8;
+}
+
+.page-container {
+  text-align: center;
+  padding: 40px;
+}
+
+.form input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 250px;
+}
+
+.form button,
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Navbar */
+.navbar {
+  background: #333;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a,
+.logout-btn {
+  color: white;
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.logout-btn:hover,
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Home Page */
+.home-container {
+  
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.55);
+  color: white;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.explore-btn {
+  background-color: #ff7f50;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+@import "leaflet/dist/leaflet.css";

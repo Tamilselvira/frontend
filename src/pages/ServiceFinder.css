@@ -1,0 +1,44 @@
+.servicefinder-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.map-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+  background-color: #98A1BC;
+}
+
+.provider-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.provider-card {
+  background: #BBDCE5;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.provider-card button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #1B3C53;
+  border: none;
+  color: #BBDCE5;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.provider-card button:hover {
+  background-color: #1B3C53;
+}
