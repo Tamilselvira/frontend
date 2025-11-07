@@ -1,0 +1,82 @@
+.booking-page {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #dbeafe, #f8fafc);
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.booking-content {
+  width: 100%;
+  max-width: 900px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.booking-title {
+  text-align: center;
+  font-size: 28px;
+  color: #2563eb;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.no-bookings {
+  text-align: center;
+  color: #64748b;
+  font-size: 18px;
+}
+
+.booking-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.booking-card {
+  background: #f1f5f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.booking-card:hover {
+  transform: translateY(-5px);
+  background: #e0f2fe;
+}
+
+.booking-card h3 {
+  color: #1e40af;
+  margin-bottom: 10px;
+}
+
+.booking-card p {
+  margin: 5px 0;
+  color: #475569;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
